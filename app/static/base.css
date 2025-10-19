@@ -1,0 +1,36 @@
+:root {
+    --primary: #2563EB;
+    --accent: #22C55E;
+    --background-default: #F8FAFC;
+    --background-elevated: white;
+    --text-primary: #111827;
+    --text-secondary: #6B7280;
+    --border-subtle: #E5E7EB;
+    --warning: #F59E0B;
+    --danger: #DC2626;
+}
+
+.layout {
+    display: flex;
+    background-color: var(--background-default);
+}
+
+.sidebar{
+    width: 18.333333333%;
+    height: 100vh;
+    background-color: var(--background-default);
+    border-right-color: var(--border-subtle);
+}
+
+.header {
+    width: 81.6666666667%;
+    height: 6.25%;
+}
+.main-content {
+    width: 81.6666666667%;
+    background-color: #111827;
+}
+
+body {
+  margin: 0;
+}   
